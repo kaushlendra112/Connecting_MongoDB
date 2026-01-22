@@ -1,0 +1,22 @@
+{
+  "name": "mongodb_connection",
+  "version": "1.0.0",
+  "description": "code to connect mongodb : Locally or cloud services",
+  "keywords": [
+    "javascript",
+    "mongoose",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config --expreimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^8.21.0"
+  }
+}
