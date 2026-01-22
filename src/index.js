@@ -13,6 +13,6 @@ connectDB()
             console.log(`Server is running... http://localhost/${PORT}`);
         })
     })
-    .catch(() => {
-
+    .catch((error) => {
+        console.log(`DB Coonnection Failed. Error : ${error}`);
     })
